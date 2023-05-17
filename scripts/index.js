@@ -36,7 +36,10 @@ function onButtonClick() {
     const selectedTeamCode = teamsList.value;
     const selectedTeam = teams.find(team => team.code === selectedTeamCode);
     const teamPara = document.getElementById("teamPara");
-    console.log(selectedTeam);
-    teamPara.innerHTML = "Hi";
+    console.log(selectedTeam.text);
+    let texasDescription = "The Dallas Cowboys are a professional American football team";
+    let texasmessage = texasDescription
+    teamPara.innerHTML = texasmessage;
+  
 
 }
