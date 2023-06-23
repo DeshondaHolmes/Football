@@ -1,0 +1,27 @@
+body{
+    background-image: url("/images/backgroundFootball.png");
+}
+
+
+form{
+    background:conic-gradient(rgba(24, 69, 183, 0.272),rgba(137, 62, 149, 0.602));
+    font-size: larger;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+button{
+    margin-top: 10px;
+}
+
+h4{
+    font-weight: bolder;
+    margin: 50px;
+
+}
+

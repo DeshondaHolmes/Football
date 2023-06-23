@@ -55,7 +55,7 @@ function onButtonClick() {
     console.log(selectedValue);
 
     if (teamsList.selectedIndex >= 0) {
-        alert(`You selected a value`);
+
     }
 
     const selectedTeam = teams.find(team => team.code === selectedValue);
